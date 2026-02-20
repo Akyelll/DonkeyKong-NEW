@@ -1,0 +1,129 @@
+/* =============================== */
+/* MENU */
+/* =============================== */
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #2e2e2e;
+  border-radius: 8px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+.menu a:hover {
+  background-color: #ffd500;
+  color: #000;
+  border-radius: 4px;
+}
+
+/* =============================== */
+/* TÍTULO */
+/* =============================== */
+
+.titulo {
+  text-align: center;
+  padding: 40px;
+  font-size: 48px;
+}
+
+.titulo h1 {
+  color: #ffffff;
+}
+
+/* =============================== */
+/* LAYOUT PRINCIPAL */
+/* =============================== */
+
+.linha {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* =============================== */
+/* FUNDO */
+/* =============================== */
+
+.fundo {
+  min-height: calc(100vh - 50px); /* altura mínima igual a altura da tela menos 50px */
+  background-image: url('fundo.jpeg'); /* imagem de fundo */
+  background-size: cover; /* cobre toda a área */
+  background-position: center; /* centraliza imagem */
+
+  display: flex; /* usa flexbox */
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center; /* centraliza verticalmente */
+}
+
+/* =============================== */
+/* FORMULÁRIO */
+/* =============================== */
+#cadastroForm {
+  background-color: #2e2e2e; /* fundo do formulário */
+  padding: 30px 50px; /* espaço interno */
+  border-radius: 10px; /* cantos arredondados */
+  display: flex; /* layout flexível */
+  flex-direction: column; /* itens empilhados verticalmente */
+  gap: 15px; /* espaçamento entre itens */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5); /* sombra */
+  width: 100%; /* largura total */
+  max-width: 400px; /* largura máxima */
+  color: #ffffff; /* cor do texto */
+  
+}
+/* =============================== */
+/* RODAPÉ */
+/* =============================== */
+
+.rodape {
+  background-color: #2e2e2e;
+  color: white;
+  padding: 50px 20px;
+  border-radius: 20px;
+  margin-top: 60px;
+}
+
+.rodape-conteudo {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 200px;
+  flex-wrap: wrap;
+}
+
+.copyright {
+  text-align: center;
+  opacity: 0.7;
+}
+
+.endereco,
+.contato {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.icones {
+  display: flex;
+  gap: 25px;
+}
+
+.icone {
+  width: 28px;
+  transition: transform 0.10s ease;
+}
+
+.icone:hover {
+  transform: scale(2.0);
+}

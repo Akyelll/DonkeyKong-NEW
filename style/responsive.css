@@ -1,0 +1,32 @@
+@media (max-width: 767px) {
+
+  .linha {
+    flex-direction: column;
+  }
+
+  .card-especie {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .col-dados {
+    grid-template-columns: 1fr;
+    border-left: none;
+  }
+
+  .item {
+    border-left: none;
+    border-top: 1px solid #353535;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .linha {
+    flex-direction: column;
+  }
+
+  .col-dados {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

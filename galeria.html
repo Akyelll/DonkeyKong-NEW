@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DonkeyKong NEW</title>
+  <link rel="shortcut icon" href="monkey.ico" type="image/x-icon">
+  
+    <link rel="stylesheet" href="style/base.css">
+  <link rel="stylesheet" href="style/layout.css">
+  <link rel="stylesheet" href="style/components.css">
+  <link rel="stylesheet" href="style/responsive.css">
+
+</head>
+
+<body>
+
+<header>
+ <nav class="menu">
+    <a href="home.html">Home</a>
+    <a href="curiosidades.html">Curiosidades</a>
+    <a href="especies.html">Espécies</a>
+    <a href="galeria.html">Galeria</a>
+    <a href="sobrenos.html">Sobre Nós</a>
+    <a href="login.html">Login</a>
+  </nav>
+  </header>
+
+<div class="galeria">
+    <img src="imagens/chimpanze.jpg" onclick="abrirImagem(this)">
+    <img src="imagens/macaco.jpeg" onclick="abrirImagem(this)">
+</div>
+
+<div id="lightbox" onclick="fecharImagem(event)">
+    <img id="imagemGrande">
+</div>
+
+<script src="script.js"></script>
+
+<footer class="rodape">
+    <div class="rodape-conteudo">
+
+        <div class="Localização">
+            <h2>Endereço</h2>
+            <br>
+            <p>06709015</p>
+            <p>Rua Rodovia Raposo Tavares, <br >Lageadinho nº 999</p>
+            <p>Cotia - SP</p>
+
+        </div>
+
+        <div class="copyright">
+            <p>© 2026.Felipe Akyel Hellmann</p>
+        </div>
+
+        <div class="contato">
+            <h2>Entre em contato:</h2>
+            <br>
+            <div class="icones">
+                <a href="https://instagram.com/seuusuario" target="_blank" rel="noopener noreferrer">
+                    <img src="imagens/instagram.ico" alt="Instagram" class="icone">
+                </a>
+
+                <a href="https://wa.me/5599999999999" target="_blank" rel="noopener noreferrer">
+                    <img src="imagens/whatsapp.ico" alt="WhatsApp" class="icone">
+                </a>
+
+                 <a href="https://wa.me/5599999999999" target="_blank" rel="noopener noreferrer">
+                    <img src="imagens/linkedin.ico" alt="Linkedin" class="icone">
+                </a>
+
+                 <a href="https://wa.me/5599999999999" target="_blank" rel="noopener noreferrer">
+                    <img src="imagens/github.ico" alt="Git hub" class="icone">
+                </a>
+            </div>
+        </div>
+
+
+
+    </div>
+</footer>
+
+
+</body>
+</html>
