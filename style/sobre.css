@@ -1,0 +1,104 @@
+/* =============================== */
+/* ABOUT - BLOCO PRINCIPAL */
+/* =============================== */
+
+.about {
+  max-width: 1200px;
+  margin: 50px auto;
+  line-height: 1.6;
+}
+
+.about__profile-photo {
+  float: left;
+  width: 240px;
+  margin: 0 20px 20px 0;
+  border-radius: 50%;
+}
+
+.about__intro {
+  margin-bottom: 40px;
+}
+
+.about__title {
+  text-align: center;
+  font-size: 36px;
+  margin: 80px 0 20px;
+}
+
+/* =============================== */
+/* ABOUT SECTION (estrutura base) */
+/* =============================== */
+
+.about-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+/* =============================== */
+/* ELEMENTOS INTERNOS */
+/* =============================== */
+
+.about-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 25px;
+  margin-bottom: 60px;
+}
+
+.about-section__image {
+  flex: 0 0 200px; /* largura fixa */
+}
+
+.about-section__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-section__content {
+  flex: 1;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: justify;
+  color: #f1f1f1;
+}
+
+/* =============================== */
+/* VARIAÇÕES POR COR */
+/* =============================== */
+
+/* Laranja - HTML */
+
+.about-section--orange {
+  border-left: 6px solid #f57701;
+}
+
+.about-section__content--orange {
+  background-color: #f57701;
+}
+
+/* Azul - CSS */
+
+.about-section__content--blue {
+  background-color: #0079b5;
+}
+
+.about-section--blue {
+  border-left: 6px solid #0079b5;
+}
+
+
+/* Escuro - JavaScript */
+
+.about-section--dark {
+  border-left: 6px solid #cab301;
+}
+
+.about-section__content--dark {
+  background-color: #cab301;
+}

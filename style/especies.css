@@ -1,0 +1,32 @@
+.escolhaespecie {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.escolhaespecie .texto {
+  background-color: #2e2e2e;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.escolhaespecie .texto a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.escolhaespecie .texto a:hover {
+  background-color: #ffd500;
+  color: #000000;
+  padding: 8px 20px;
+  border-radius: 100px;
+}
+
+.imagem2 img {
+  max-width: 45px;
+  width: 100%;
+  border-radius: 50px;
+}

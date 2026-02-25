@@ -1,0 +1,42 @@
+@media (max-width: 767px) {
+  .linha {
+    flex-direction: column; /* muda layout para coluna em telas pequenas */
+  }
+
+  .card-especie {
+    flex-direction: column; /* cards empilham verticalmente */
+    align-items: flex-start; /* alinham ao topo */
+  }
+
+  .col-dados {
+    grid-template-columns: 1fr; /* uma coluna no grid */
+    border-left: none; /* remove borda esquerda */
+  }
+
+  .item {
+    border-left: none; /* remove borda esquerda */
+    border-top: 1px solid #353535; /* adiciona borda superior */
+  }
+}
+
+/* MEDIUM — Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .linha {
+    flex-direction: column; /* muda layout para coluna */
+  }
+
+  .col-dados {
+    grid-template-columns: repeat(2, 1fr); /* duas colunas */
+  }
+}
+/*CONFIGURAÇÃO DA JANELA ESPECIES/*/
+
+
+
+.escolhaespecie {
+  display: flex; /* organiza imagem e texto em linha */
+  align-items: flex-start; /* alinha ao topo */
+  gap: 10px; /* espaço entre imagem e texto */
+  margin-top: 10px; /* espaço superior */
+}
+
